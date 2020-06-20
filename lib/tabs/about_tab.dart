@@ -1,8 +1,8 @@
 import 'dart:html' as html;
 
-import 'package:adityagurjar/config/assets.dart';
-import 'package:adityagurjar/config/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:vinipx/config/assets.dart';
+import 'package:vinipx/config/constants.dart';
 
 class AboutTab extends StatelessWidget {
   @override
@@ -18,11 +18,11 @@ class AboutTab extends StatelessWidget {
                 radius: 202,
                 backgroundColor: Colors.white70,
                 child: CircleAvatar(
-                  radius:200,
+                  radius: 200,
                   child: CircleAvatar(
                     radius: 193,
                     backgroundImage: Image.asset(Assets.avatar3).image,
-                ),
+                  ),
                 ),
               ),
               SizedBox(
@@ -38,7 +38,8 @@ class AboutTab extends StatelessWidget {
               ),
               Text(
                 '... I like testing, agile, and people',
-                style: TextStyle(fontFamily: "Pacificao", fontWeight: FontWeight.w100),
+                style: TextStyle(
+                    fontFamily: "Pacificao", fontWeight: FontWeight.w100),
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
               ),
@@ -54,18 +55,23 @@ class AboutTab extends StatelessWidget {
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.github)),
-                    label: Text('Github', style: TextStyle(fontFamily: "Pacificao"), textScaleFactor: 2),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_GITHUB, 'vinipx'),
+                    label: Text('Github',
+                        style: TextStyle(fontFamily: "Pacificao"),
+                        textScaleFactor: 2),
+                    onPressed: () =>
+                        html.window.open(Constants.PROFILE_GITHUB, 'vinipx'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.twitter)),
-                    label: Text('Twitter',textAlign: TextAlign.left ,style: TextStyle(fontFamily: "Pacificao"), textScaleFactor: 2),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_TWITTER, 'imvinipx'),
+                    label: Text('Twitter',
+                        textAlign: TextAlign.left,
+                        style: TextStyle(fontFamily: "Pacificao"),
+                        textScaleFactor: 2),
+                    onPressed: () =>
+                        html.window.open(Constants.PROFILE_TWITTER, 'imvinipx'),
                   ),
                 ],
               ),
@@ -78,7 +84,9 @@ class AboutTab extends StatelessWidget {
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.instagram)),
-                    label: Text('Instagram ',style: TextStyle(fontFamily: "Pacificao"), textScaleFactor: 2),
+                    label: Text('Instagram ',
+                        style: TextStyle(fontFamily: "Pacificao"),
+                        textScaleFactor: 2),
                     onPressed: () => html.window
                         .open(Constants.PROFILE_INSTAGRAM, 'vinipxf'),
                   ),
@@ -87,9 +95,12 @@ class AboutTab extends StatelessWidget {
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.linkedin)),
-                    label: Text('Linkedin ', style: TextStyle(fontFamily: "Pacificao"), textScaleFactor: 2),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_LINKEDIN, 'vinícius-fagundes-301b2429'),
+                    label: Text('Linkedin ',
+                        style: TextStyle(fontFamily: "Pacificao"),
+                        textScaleFactor: 2),
+                    onPressed: () => html.window.open(
+                        Constants.PROFILE_LINKEDIN,
+                        'vinícius-fagundes-301b2429'),
                   )
                 ],
               )

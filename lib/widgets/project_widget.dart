@@ -1,4 +1,4 @@
-import 'package:adityagurjar/models/project_model.dart';
+import 'package:vinipx/models/project_model.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 class ProjectWidget extends StatelessWidget {
@@ -41,7 +41,7 @@ class ProjectWidget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(_project.name,
-                          style: Theme.of(context).textTheme.title),
+                          style: Theme.of(context).textTheme.headline6),
                       SizedBox(
                         height: height * .01,
                       ),

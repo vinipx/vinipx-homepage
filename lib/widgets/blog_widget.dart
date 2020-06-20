@@ -1,6 +1,6 @@
 import 'dart:html' as html;
 
-import 'package:adityagurjar/config/constants.dart';
+import 'package:vinipx/config/constants.dart';
 import 'package:flutter/material.dart';
 
 class BlogWidget extends StatelessWidget {
