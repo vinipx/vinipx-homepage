@@ -1,0 +1,35 @@
+
+[
+  {
+    "family": "MaterialIcons",
+    "fonts": [
+      {
+        "asset": "https://fonts.gstatic.com/s/materialicons/v42/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
+      }
+    ]
+  },
+  {
+    "family": "GoogleSansRegular",
+    "fonts": [
+      {
+        "asset": "fonts/GoogleSansRegular.ttf"
+      }
+    ]
+  },
+  {
+    "family": "PermanentMarker",
+    "fonts": [
+      {
+        "asset": "fonts/PermanentMarker-Regular.ttf"
+      }
+    ]
+  },
+  {
+    "family": "Pacificao",
+    "fonts": [
+      {
+        "asset": "fonts/Pacifico-Regular.ttf"
+      }
+    ]
+  }
+]
