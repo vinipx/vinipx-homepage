@@ -1,11 +1,11 @@
 import 'dart:html' as html;
 
+import 'package:flutter/material.dart';
 import 'package:vinipx/config/constants.dart';
 import 'package:vinipx/models/blog_model.dart';
 import 'package:vinipx/providers/api_provider.dart';
 import 'package:vinipx/widgets/blog_widget.dart';
 import 'package:vinipx/widgets/responsive_widget.dart';
-import 'package:flutter/material.dart';
 
 class BlogTab extends StatefulWidget {
   @override

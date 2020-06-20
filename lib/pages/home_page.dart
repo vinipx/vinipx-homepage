@@ -1,9 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:vinipx/config/assets.dart';
 import 'package:vinipx/tabs/about_tab.dart';
-import 'package:vinipx/tabs/blog_tab.dart';
 import 'package:vinipx/tabs/projects_tab.dart';
 import 'package:vinipx/widgets/theme_inherited_widget.dart';
-import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
   @override
