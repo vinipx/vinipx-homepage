@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
           child: tabWidgets.elementAt(_selectedIndex),
         ),
         bottomNavigationBar: SizedBox(
-          height: 100,
+          height: 80,
                   child: BottomNavigationBar(
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(

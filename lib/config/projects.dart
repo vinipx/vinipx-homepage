@@ -4,27 +4,15 @@ import 'assets.dart';
 final List<Project> projects = [
   Project(
       name: 'Flutter - Destini Adventure',
-      image: Assets.flutter,
+      image: Assets.github,
       description:
-      'Choice adventure game made in Flutter',
+      'Choice adventure game designed in Flutter',
       link:
       'https://www.youtube.com/watch?v=Jf2xUTF0u7k&list=PLjdRLSMDx_jd7Mv39xvA7MHaC64mUp-7z'),
   Project(
-      name: 'Samsara - Norte',
-      image: Assets.youtube,
+      name: 'Vinipx - Website repository',
+      image: Assets.github,
       description:
-      'Project 2',
-      link: 'https://www.youtube.com/watch?v=Fq-bbpDf6LI&list=PLjdRLSMDx_jd7Mv39xvA7MHaC64mUp-7z&index=2'),
-  Project(
-      name: 'Samsara - Avante',
-      image: Assets.youtube,
-      description:
-      'Project 2',
-      link: 'https://www.youtube.com/watch?v=hCueehj9aCw&list=PLjdRLSMDx_jd7Mv39xvA7MHaC64mUp-7z&index=3'),
-  Project(
-      name: 'Samsara - Avante (videoclip)',
-      image: Assets.youtube,
-      description:
-      'Project 2',
-      link: 'https://www.youtube.com/watch?v=HftJ4XynkMk'),    
+      'Github repository of this portoflio website designed in Flutter',
+      link: 'https://github.com/vinipx/vinipx-homepage'), 
 ];
