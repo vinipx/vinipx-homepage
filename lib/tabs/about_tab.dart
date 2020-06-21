@@ -1,5 +1,6 @@
 import 'dart:html' as html;
 
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:vinipx/config/assets.dart';
 import 'package:vinipx/config/constants.dart';
@@ -28,9 +29,10 @@ class AboutTab extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              Text(
+              AutoSizeText(
                 'Hi ! I\'m Vini ',
                 style: TextStyle(fontFamily: "Pacificao"),
+                maxLines: 1,
                 textScaleFactor: 6,
               ),
               SizedBox(
