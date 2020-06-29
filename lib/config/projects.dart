@@ -8,7 +8,7 @@ final List<Project> projects = [
       image: Assets.github,
       description: 'Choice adventure game designed in Flutter',
       link:
-          'https://www.youtube.com/watch?v=Jf2xUTF0u7k&list=PLjdRLSMDx_jd7Mv39xvA7MHaC64mUp-7z'),
+          'https://github.com/vinipx/flutter-practice-destini-challenge-starting'),
   Project(
       name: 'Vinipx - Website repository',
       image: Assets.github,
